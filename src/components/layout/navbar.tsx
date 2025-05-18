@@ -1,10 +1,11 @@
+
 "use client";
 
 import Link from 'next/link';
 import { Menu, X, Zap } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 
 const navItems = [
@@ -63,7 +64,10 @@ export function Navbar() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-full max-w-xs bg-background p-6">
-              <div className="flex flex-col space-y-6">
+              <SheetHeader>
+                <SheetTitle className="sr-only">Main Navigation Menu</SheetTitle>
+              </SheetHeader>
+              <div className="flex flex-col space-y-6 mt-2"> {/* Adjusted to mt-2 or simply rely on p-6 of SheetContent */}
                 <Link href="#home" className="flex items-center gap-2 text-xl font-bold text-primary mb-4" onClick={() => setIsSheetOpen(false)}>
                   <Zap className="h-6 w-6" />
                   <span>Vsquare Digital</span>
