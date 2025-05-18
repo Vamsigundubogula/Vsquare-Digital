@@ -11,7 +11,7 @@ export function Footer() {
           <div className="flex flex-col items-center md:items-start">
             <Link href="#home" className="flex items-center gap-2 text-xl font-bold text-primary mb-2">
               <Zap className="h-6 w-6" />
-              <span>Vsquare Digital</span>
+              <span>V-SQUARE</span>
             </Link>
             <p className="text-sm text-center md:text-left">Innovate. Integrate. Inspire.</p>
           </div>
@@ -39,7 +39,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border/50 text-center text-xs text-muted-foreground">
-          <p>&copy; {currentYear} Vsquare Digital. All rights reserved.</p>
+          <p>&copy; {currentYear} V-SQUARE. All rights reserved.</p>
           <p className="mt-1">
             <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link> | <Link href="#" className="hover:text-primary transition-colors">Terms of Service</Link>
           </p>

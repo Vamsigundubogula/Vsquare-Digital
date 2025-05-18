@@ -11,11 +11,12 @@ export function AboutUsSection() {
   ];
 
   return (
-    <SectionWrapper id="about" title="About Vsquare Digital" subtitle="Who We Are">
+    <SectionWrapper id="about" title="About V-SQUARE" subtitle="Who We Are">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
           <Image
-            src="https://placehold.co/600x450.png"
+            // src="https://placehold.co/600x450.png"
+            src="/images/vsquare-logo.jpg"
             alt="Team collaborating on a project"
             width={600}
             height={450}
@@ -25,7 +26,7 @@ export function AboutUsSection() {
         </div>
         <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <p className="text-lg text-muted-foreground">
-            Vsquare Digital is a forward-thinking technology partner dedicated to empowering businesses through innovative digital solutions. We specialize in creating bespoke web and mobile applications, designing intuitive user experiences, and implementing effective digital strategies that drive growth and efficiency.
+          V-SQUARE is a forward-thinking technology partner dedicated to empowering businesses through innovative digital solutions. We specialize in creating bespoke web and mobile applications, designing intuitive user experiences, and implementing effective digital strategies that drive growth and efficiency.
           </p>
           <p className="text-lg text-muted-foreground">
             Our team of passionate experts combines cutting-edge technology with creative thinking to deliver impactful results. We believe in building long-term partnerships with our clients, founded on trust, transparency, and a shared vision for success.

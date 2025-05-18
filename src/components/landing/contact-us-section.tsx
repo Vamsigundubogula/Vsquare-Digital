@@ -82,15 +82,15 @@ export function ContactUsSection() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <MapPin className="h-5 w-5 text-primary" />
-              <span className="text-muted-foreground">123 Innovation Drive, Tech City, TX 75001</span>
+              <span className="text-muted-foreground">MSR Green City Layout Main Rd, Whitefeild, Bengaluru, Karnataka, 560067</span>
             </div>
             <div className="flex items-center gap-3">
               <Phone className="h-5 w-5 text-primary" />
-              <span className="text-muted-foreground">(123) 456-7890</span>
+              <span className="text-muted-foreground">+91 9989136559</span>
             </div>
             <div className="flex items-center gap-3">
               <Mail className="h-5 w-5 text-primary" />
-              <span className="text-muted-foreground">hello@vsquaredigital.com</span>
+              <span className="text-muted-foreground">hello@vsquare.com</span>
             </div>
           </div>
         </div>

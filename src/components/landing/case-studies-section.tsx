@@ -12,7 +12,7 @@ export function CaseStudiesSection() {
     <SectionWrapper id="case-studies" title="Our Success Stories" subtitle="Impactful Solutions" className="bg-secondary">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {caseStudies.map((study, index) => (
-          <AnimatedCard key={study.id} className="flex flex-col animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
+          <AnimatedCard key={study.id} className={`flex flex-col animate-fade-in [animation-delay:${index * 0.1}s]`}>
             <div className="relative h-48 w-full">
               <Image
                 src={study.imageUrl}

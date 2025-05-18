@@ -40,7 +40,7 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="#home" className="flex items-center gap-2 text-2xl font-bold text-primary">
           <Zap className="h-7 w-7" />
-          <span>Vsquare Digital</span>
+          <span>V-SQUARE</span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6">
@@ -70,7 +70,7 @@ export function Navbar() {
               <div className="flex flex-col space-y-6 mt-2"> {/* Adjusted to mt-2 or simply rely on p-6 of SheetContent */}
                 <Link href="#home" className="flex items-center gap-2 text-xl font-bold text-primary mb-4" onClick={() => setIsSheetOpen(false)}>
                   <Zap className="h-6 w-6" />
-                  <span>Vsquare Digital</span>
+                  <span>V-SQUARE</span>
                 </Link>
                 {navItems.map((item) => (
                   <Link

@@ -17,7 +17,7 @@ export function HeroSection() {
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 animate-fade-in"
            style={{ animationDelay: '0.4s' }}>
-          Vsquare Digital delivers cutting-edge digital solutions to transform your business.
+          V-SQUARE delivers cutting-edge digital solutions to transform your business.
           Partner with us to unlock your full potential in the ever-evolving digital landscape.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in"
